@@ -104,7 +104,10 @@ canvas {
     font-size: 6vw;
   }
   footer {
-    padding: 10px 0;
+    position: relative;
+    height: auto;
+    padding: 15px 0;
+    margin-top: 20px;
   }
   p {
     font-size: 4vw;
@@ -131,7 +134,10 @@ canvas {
   }
 
   footer {
-    padding: 10px 0;
+    position: relative;
+    height: auto;
+    padding: 15px 0;
+    margin-top: 20px;
   }
   footer p {
     font-size: 5vw;
@@ -140,5 +146,8 @@ canvas {
   .logos a {
     width: 35px;
     height: 35px;
+  }
+  body{
+    padding-bottom: 120px;
   }
 }
