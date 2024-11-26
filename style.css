@@ -5,6 +5,7 @@ body {
   color: rgb(229, 193, 193);
   font-family: Roboto;
   margin: 0;
+  padding: 0;
 }
 
 @keyframes fadeIn {
@@ -83,8 +84,55 @@ canvas {
   background-position: 50% 50%;
 }
 .circular-image {
-  width: 150px; /* Set the width of the image */
-  height: 150px; /* Set the height of the image (same as width for a square) */
-  border-radius: 50%; /* This makes the image circular */
-  object-fit: cover; /* Ensures the image covers the area without distorting */
+  width: 150px; 
+  height: 150px; 
+  border-radius: 50%; 
+  object-fit: cover; 
+}
+@media (max-width: 768px) {
+  .center {
+    padding: 15px;
+  }
+  
+  .circular-image {
+    width: 120px;
+    height: 120px;
+  }
+
+  h1 {
+    font-size: 6vw;
+  }
+
+  p {
+    font-size: 4vw;
+  }
+
+  .logos a {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .center {
+    padding: 10px;
+  }
+
+  .circular-image {
+    width: 100px;
+    height: 100px;
+  }
+
+  h1 {
+    font-size: 8vw;
+  }
+
+  p {
+    font-size: 5vw;
+  }
+
+  .logos a {
+    width: 35px;
+    height: 35px;
+  }
 }
