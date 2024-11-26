@@ -70,6 +70,7 @@ canvas {
 .logos{
   width:150px;
   height:150px;
+  gap: 70px;
   border-radius:50%;
   overflow:hidden;
 }
