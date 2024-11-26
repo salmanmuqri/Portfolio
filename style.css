@@ -70,7 +70,6 @@ canvas {
 .logos{
   width:150px;
   height:150px;
-  gap: 70px;
   border-radius:50%;
   overflow:hidden;
 }
@@ -103,9 +102,7 @@ canvas {
   h1 {
     font-size: 6vw;
   }
-  footer {
-    padding: 10px 0;
-  }
+
   p {
     font-size: 4vw;
   }
@@ -130,18 +127,12 @@ canvas {
     font-size: 8vw;
   }
 
-  footer {
-    padding: 10px 0;
-  }
-  footer p {
+  p {
     font-size: 5vw;
   }
 
   .logos a {
     width: 35px;
     height: 35px;
-  }
-  body{
-    padding-bottom: 120px;
   }
 }
